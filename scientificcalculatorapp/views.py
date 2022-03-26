@@ -5,3 +5,5 @@ def home(request):
 
 
 # Create your views here.
+def contact(request):
+	return render(request,'scientificcalculator.html')
